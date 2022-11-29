@@ -11,6 +11,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
+PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'EVA_CINEHUB')
 API_ID = int(environ(''API_ID', '19455849')
 API_HASH = environ('API_HASH', '71498d69fad014add7e9f717bfde4b79')
