@@ -12,10 +12,10 @@ def is_enabled(value, default):
 
 # Bot information
 PORT = environ.get("PORT", "8080")
-SESSION = environ.get('SESSION', 'EVA_CINEHUB')
-API_ID = int(environ(''API_ID', '19455849')
-API_HASH = environ('API_HASH', '71498d69fad014add7e9f717bfde4b79')
-BOT_TOKEN = environ('BOT_TOKEN', '5757787154:AAEZhPweryR9KiCADj4gIRuQhtPk1Uo3MQo')
+SESSION = environ.get('SESSION', '')
+API_ID = int(environ(''API_ID', '')
+API_HASH = environ('API_HASH', '')
+BOT_TOKEN = environ('BOT_TOKEN', '')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
